@@ -15,6 +15,13 @@ Apply promo codes (e.g., SAVE10, FLAT100).
 
 Complete a checkout process with confirmation.
 
+Screen Shot:<img width="1593" height="855" alt="image" src="https://github.com/user-attachments/assets/f69c3d2e-b417-4163-b911-67c97ffc7a41" />
+<img width="1380" height="863" alt="image" src="https://github.com/user-attachments/assets/8f099f45-0ee7-4cbf-82ca-2af75f51d5ca" />
+<img width="1463" height="864" alt="image" src="https://github.com/user-attachments/assets/891213c7-926e-437d-895a-aa057c9d83e3" />
+<img width="1475" height="863" alt="image" src="https://github.com/user-attachments/assets/66dbdecb-8bba-4772-821e-4b34a56ccc1c" />
+
+
+
 🧩 Tech Stack
 Frontend
 
@@ -92,14 +99,12 @@ npm install
 
 
 Create .env file:
-
 MONGO_URI=your_mongodb_connection_string
 PORT=4000
 
 
 Run backend:
-
-npm start
+npm run dev
 
 3️⃣ Frontend Setup
 cd ../client
@@ -128,8 +133,6 @@ Matches given Figma design layout.
 🧾 Deliverables
 
 Fully functional MERN stack app.
-
-Hosted live links (Frontend + Backend).
 
 Complete README with setup and instructions.
 
