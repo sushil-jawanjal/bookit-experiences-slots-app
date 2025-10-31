@@ -8,7 +8,7 @@ export default function Home({ searchTerm }) {
 
   useEffect(() => {
     axios
-      .get("http://localhost:3000/api/experiences")
+      .get(`${import.meta.env.VITE_REACT_APP_BACKEND_BASEURL}/api/experiences`)
       .then((res) => {
         setExperiences(res.data.data);
         setLoading(false);

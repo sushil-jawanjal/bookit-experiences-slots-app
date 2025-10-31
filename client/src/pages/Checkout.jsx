@@ -29,9 +29,12 @@ export default function Checkout() {
   const validatePromo = async () => {
     if (!form.promo) return;
     try {
-      const res = await axios.post("http://localhost:3000/api/promo/validate", {
-        code: form.promo,
-      });
+      const res = await axios.post(
+        `${import.meta.env.VITE_REACT_APP_BACKEND_BASEURL}/api/promo/validate`,
+        {
+          code: form.promo,
+        }
+      );
 
       if (res.data.valid) {
         setPromoStatus("valid");
@@ -60,13 +63,16 @@ export default function Checkout() {
     e.preventDefault();
     setLoading(true);
     try {
-      const res = await axios.post("http://localhost:3000/api/bookings", {
-        experienceId: experience._id,
-        name: form.name,
-        email: form.email,
-        date: selectedDate,
-        time: selectedTime,
-      });
+      const res = await axios.post(
+        `${import.meta.env.VITE_REACT_APP_BACKEND_BASEURL}/api/bookings`,
+        {
+          experienceId: experience._id,
+          name: form.name,
+          email: form.email,
+          date: selectedDate,
+          time: selectedTime,
+        }
+      );
       navigate("/result", { state: { ref: res.data.ref, success: true } });
     } catch (err) {
       navigate("/result", { state: { success: false }, message: { err } });

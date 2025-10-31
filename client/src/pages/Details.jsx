@@ -15,7 +15,11 @@ export default function Details() {
 
   useEffect(() => {
     axios
-      .get(`http://localhost:3000/api/experiences/${id}`)
+      .get(
+        `${
+          import.meta.env.VITE_REACT_APP_BACKEND_BASEURL
+        }/api/experiences/${id}`
+      )
       .then((res) => setExperience(res.data.data))
       .catch((err) => console.error("Error fetching experience:", err))
       .finally(() => setLoading(false));
