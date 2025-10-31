@@ -3,12 +3,6 @@
 A fullstack booking web application where users can explore experiences, view available slots, apply promo codes, and confirm bookings.
 This project demonstrates real-world fullstack workflows — from API design to frontend integration — built using MERN stack.
 
-🚀 Live Demo
-
-Frontend (Vercel): https://your-frontend-link.vercel.app
-
-Backend (Render): https://your-backend-link.onrender.com
-
 🧠 Objective
 
 To build a complete end-to-end travel experience booking system where users can:
