@@ -28,7 +28,7 @@ export default function Home({ searchTerm }) {
       {loading ? (
         <p>Loading...</p>
       ) : filteredExperiences.length > 0 ? (
-        <div className="grid gap-6 sm:grid-cols-2 md:grid-cols-3">
+        <div className="grid gap-6 sm:grid-cols-2 md:grid-cols-4">
           {filteredExperiences.map((exp) => (
             <ExperienceCard key={exp._id} exp={exp} />
           ))}
