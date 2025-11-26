@@ -42,29 +42,29 @@ Backend
 🧾 dotenv, cors, morgan for environment setup and logs
 
 🧱 Folder Structure
-bookit-experiences/
-│
-├── client/                 # Frontend (React + Vite)
-│   ├── src/
-│   │   ├── assets/
-│   │   ├── components/
-│   │   ├── data/
-│   │   ├── pages/
-│   │   ├── App.jsx
-│   │   └── main.jsx
-│   ├── package.json
-│   ├── vite.config.js
-│   └── .gitignore
-│
-├── server/                 # Backend (Node + Express)
-│   ├── config/
-│   ├── controllers/
-│   ├── models/
-│   ├── routes/
-│   ├── .env
-│   ├── server.js
-│   └── package.json
-│
+bookit-experiences/<br>
+│<br>
+├── client/                 # Frontend (React + Vite)<br>
+│   ├── src/<br>
+│   │   ├── assets/<br>
+│   │   ├── components/<br>
+│   │   ├── data/<br>
+│   │   ├── pages/<br>
+│   │   ├── App.jsx<br>
+│   │   └── main.jsx<br>
+│   ├── package.json<br>
+│   ├── vite.config.js<br>
+│   └── .gitignore<br>
+│<br>
+├── server/                 # Backend (Node + Express)<br>
+│   ├── config/<br>
+│   ├── controllers/<br>
+│   ├── models/<br>
+│   ├── routes/<br>
+│   ├── .env<br>
+│   ├── server.js<br>
+│   └── package.json<br>
+│<br>
 └── README.md
 
 ⚙️ Features
