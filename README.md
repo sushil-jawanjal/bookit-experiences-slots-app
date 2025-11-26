@@ -1,6 +1,7 @@
 📘 BookIt: Experiences & Slots
 
-A fullstack booking web application where users can explore experiences, view available slots, apply promo codes, and confirm bookings.
+A booking module for a fullstack travel application, built using the MERN stack.
+This feature allows users to explore experiences, view available slots, apply promo codes, and confirm bookings.
 This project demonstrates real-world fullstack workflows — from API design to frontend integration — built using MERN stack.
 
 🧠 Objective
